@@ -643,6 +643,7 @@ font-size: 70px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+     text-align: center;
 }
 #h1-color-1{
     box-shadow: 0 6px 6px gray;
@@ -1051,10 +1052,9 @@ font-size: 70px;
         height: 100px;
     }
     #h1-mor{
-        margin-left: 5px;
-        font-size: 25px;
+        font-size: 20px;
         cursor: pointer;
-        margin-top: 10px;
+        margin: 15px;
 }
 #div-tahta{
     margin: 25px;
@@ -1065,6 +1065,16 @@ font-size: 70px;
     justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
+}
+    .div-colors{
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+     text-align: center;
+        margin: 10px;
 }
 }
 @media(main-width:460px){
